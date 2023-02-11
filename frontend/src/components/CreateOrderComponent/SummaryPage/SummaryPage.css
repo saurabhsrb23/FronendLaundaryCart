@@ -1,12 +1,12 @@
 .gorderPrvSummary {
     overflow: auto;
-    color: blue;
+    /* color: blue; */
     /* background-color: rgb(77, 77, 212); */
     position: fixed;
-    top: 0px;
+    top: 0;
     right: 0px;
     width: 850px;
-    max-height: 100%;
+   
     /* min-height:933px ; */
     /* height: ; */
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -18,12 +18,20 @@
     color: white;
     padding: 0.5em 1em;
   }
+  select{
+    width:100px;
+    background-color:#f4f4f4;
+    border-radius: 5px;
+    border: 2px solid #5861ae;
+  }
   
   .gbuttonOsumcloseCont {
     float: right;
   }
   .gbuttonOsumclose {
     border: none;
+    width: 30px;
+    border-radius: 10px
   }
   
   .goderSummaryheader2 {

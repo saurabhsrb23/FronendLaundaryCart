@@ -150,7 +150,7 @@ const Products = () => {
   
       console.log(gSenddata, "g send data");
   
-      const res = await fetch("http://localhost:8080/order", {
+      const res = await fetch("http://localhost:8080/createorder", {
         method: "POST",
         headers: {
           "content-type": "application/json",

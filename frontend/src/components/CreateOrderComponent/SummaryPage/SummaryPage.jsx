@@ -81,14 +81,16 @@ export default function SummaryPage({
         <table className="table table-borderless">
           <thead>
             <tr>
-              <th scope="col" style={{color:"black"}}>store Location</th>
+              <th scope="col" style={{color:"black"}}>
+                store Location</th>
               <th scope="col" style={{color:"black"}}>Store Address</th>
               <th scope="col" style={{color:"black"}}>Phone</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>PUNE</td>
+              <td><select><option>PUNE</option>
+                        <option>MUMBAI</option></select></td>
               <td>Jp Nagar</td>
               <td>9999999999</td>
             </tr>
