@@ -9,7 +9,7 @@ table{
   margin-left: 30px;
   /* UI Properties */
   background: #FFFFFF 0% 0% no-repeat padding-box;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #cdcdcd;
   border-radius: 2px;
     
 }
@@ -20,7 +20,7 @@ table>thead{
 height: 50px;
 /* UI Properties */
 background: #2F2F2F 0% 0% no-repeat padding-box;
-border: 1px solid #E0E0E0;
+border: 1px solid #ffffff;
 border-radius: 2px;
     color: white;
 }
@@ -42,6 +42,7 @@ table>thead>tr>th:nth-child(8){
   width: 10%;
  
 }
+
 
 .tableBody>tr>td:nth-child(1){
   
@@ -145,12 +146,22 @@ table>thead>tr>th:nth-child(8){
       background-color: #5861ae;
       color: white;
       opacity: 1;
+      border: 1px solid #000000;
+      height: 30px;
+      border-radius: 8px;
+      width: 100px;
+      margin-top: 10px;
     }
     
     .button1 {
       color: #5861ae;
-      border: 2px solid #5861ae;
+      border-radius: 8px;
+      background-color: #FFFFFF;
+      border: 1px solid #5861ae;
       margin-right: 2%;
+      height: 30px;
+      width: 100px;
+      margin-top: 10px;
     }
     
     

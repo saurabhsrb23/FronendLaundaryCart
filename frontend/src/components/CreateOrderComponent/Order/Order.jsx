@@ -18,7 +18,7 @@ const Order = () => {
         <div className="ordercomponent">
               <div className="mainCon">
                 <div>
-              <p id="pBTN">Plz Create Your Order</p>
+              <p id="pBTN">Please Create Your Order</p>
             <Link className="linkstyle" to="/createorder">
           <button className="Cbtn"> create</button>
             </Link>

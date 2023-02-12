@@ -1,5 +1,5 @@
 .gorderPrvSummary {
-    overflow: auto;
+    /* overflow: auto; */
     /* color: blue; */
     /* background-color: rgb(77, 77, 212); */
     position: fixed;
@@ -7,8 +7,8 @@
     right: 0px;
     width: 850px;
    
-    /* min-height:933px ; */
-    /* height: ; */
+    /* min-height:100% ; */
+    /* height:00px ; */
     background: #ffffff 0% 0% no-repeat padding-box;
     opacity: 1;
   }
@@ -16,22 +16,30 @@
   .gHeader1Osum {
     background-color: #5861ae;
     color: white;
+    height: 40px;
     padding: 0.5em 1em;
   }
+  .gHeader1Osum span{
+    margin-top: 10px;
+    font: normal normal 600 22px/20px Open Sans;
+  }
   select{
-    width:100px;
-    background-color:#f4f4f4;
-    border-radius: 5px;
-    border: 2px solid #5861ae;
+    width:150px;
+    margin-left: -90px;
+    /* background-color:#f4f4f4; */
+    /* border-radius: 5px; */
+    border: 0px solid ;
+    border-bottom: 1px solid black;
   }
   
   .gbuttonOsumcloseCont {
     float: right;
   }
   .gbuttonOsumclose {
-    border: none;
-    width: 30px;
-    border-radius: 10px
+   background-color: #5861ae;
+   border: 1px solid #5861ae;
+   color: #f4f9ff;
+   font-size: larger;
   }
   
   .goderSummaryheader2 {
@@ -70,6 +78,17 @@
     padding-right: 0.3em;
     padding-bottom: 0.3em;
   }
+  .body-3{
+    height: 60px;
+  }
+  td{
+    height: 50px;
+    border-bottom: 1px solid black;
+  }
+
+  .th{
+    background-color: #F4F9FF;
+  }
   .Gprevsumaddress {
     color: #3e3f40;
     width: 236px;
@@ -100,17 +119,25 @@
   }
   
   .GoviConfirmButton {
-    margin-top: 3em;
+    margin-top: 8em;
     background-color: #f4f4f4;
     color: white;
     text-align: right;
+    /* ma */
+    /* min-height: 100%; */
+    /* margin: left 20em;; */
     padding: 1em 2em;
+        /* position: fixed; */
   }
   .GbuttonforOrder {
     background-color: #5861ae;
     color: white;
-    padding: 0.2em 1em;
+    padding: 0.5em 0em;
     border-radius: 0.2em;
     border: none;
+    height: 2.5em;
+
+
+    /* margin-right: 20px; */
   }
   

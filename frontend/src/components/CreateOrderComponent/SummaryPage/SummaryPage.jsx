@@ -70,7 +70,7 @@ export default function SummaryPage({
   return (
     <div className="gorderPrvSummary">
       <div className="gHeader1Osum">
-        <span>Summary page</span>
+        <span>Summary</span>
         <span className="gbuttonOsumcloseCont">
           <button className="gbuttonOsumclose" onClick={() => GcancelSummary()}>
             X
@@ -81,18 +81,17 @@ export default function SummaryPage({
         <table className="table table-borderless">
           <thead>
             <tr>
-              <th scope="col" style={{color:"black"}}>
-                store Location</th>
-              <th scope="col" style={{color:"black"}}>Store Address</th>
-              <th scope="col" style={{color:"black"}}>Phone</th>
+              <th className="th" scope="col" style={{color:"black"}}>store Location</th>
+              <th className="th" scope="col" style={{color:"black"}}>Store Address</th>
+              <th className="th" scope="col" style={{color:"black"}}>Phone</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="body-3">
             <tr>
               <td><select><option>PUNE</option>
                         <option>MUMBAI</option></select></td>
-              <td>Jp Nagar</td>
-              <td>9999999999</td>
+              <td className="td1">Jp Nagar</td>
+              <td className="td1">9999999999</td>
             </tr>
           </tbody>
         </table>
@@ -104,43 +103,43 @@ export default function SummaryPage({
             <tbody>
               {gOrderdata.shirts.quantity !== 0 && (
                 <GsumOrderRow
-                  elementtype={"shirts"}
+                  elementtype={"Shirts"}
                   elementInfo={gOrderdata.shirts}
                 />
               )}
               {gOrderdata.tshirts.quantity !== 0 && (
                 <GsumOrderRow
-                  elementtype={"tshirts"}
+                  elementtype={"T-shirts"}
                   elementInfo={gOrderdata.tshirts}
                 />
               )}
               {gOrderdata.trousers.quantity !== 0 && (
                 <GsumOrderRow
-                  elementtype={"trousers"}
+                  elementtype={"Trousers"}
                   elementInfo={gOrderdata.trousers}
                 />
               )}
               {gOrderdata.jeans.quantity !== 0 && (
                 <GsumOrderRow
-                  elementtype={"jeans"}
+                  elementtype={"Jeans"}
                   elementInfo={gOrderdata.jeans}
                 />
               )}
               {gOrderdata.boxers.quantity !== 0 && (
                 <GsumOrderRow
-                  elementtype={"boxers"}
+                  elementtype={"Boxers"}
                   elementInfo={gOrderdata.boxers}
                 />
               )}
               {gOrderdata.joggers.quantity !== 0 && (
                 <GsumOrderRow
-                  elementtype={"joggers"}
+                  elementtype={"Joggers"}
                   elementInfo={gOrderdata.joggers}
                 />
               )}
               {gOrderdata.others.quantity !== 0 && (
                 <GsumOrderRow
-                  elementtype={"others"}
+                  elementtype={"Others"}
                   elementInfo={gOrderdata.others}
                 />
               )}
