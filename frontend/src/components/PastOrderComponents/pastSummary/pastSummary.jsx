@@ -29,7 +29,7 @@ const PastSummary = ({closeOrder}) => {
                             <option value="jpnagar">jpnagar</option>
                             </select>
                             </div> </td>
-                        <td><div>strore Address:</div><div>mdksfkvnfkj</div> </td>
+                        <td><div>strore Address:</div><div>PUNE</div> </td>
                         <td><div>Phone</div><div>0987658909</div> </td>
                         </tr>
                     </tbody>
@@ -40,7 +40,7 @@ const PastSummary = ({closeOrder}) => {
             <section className='stausBar'>
                 <div>
                 <input type="checkbox" />
-                <label>pickup</label>
+                <label className="loader-line">pickup</label>
                 </div>
                 <div>
                 <input type="checkbox" />
@@ -96,7 +96,7 @@ const PastSummary = ({closeOrder}) => {
         <footer>
             <section className='footerup'>
 
-            <h5>Address</h5>
+            <h5 className='footerup-h5'>Address</h5>
             <article className='addressContainer'>
                 <h3>Home</h3>
                 <p>#222 ,10th road</p>

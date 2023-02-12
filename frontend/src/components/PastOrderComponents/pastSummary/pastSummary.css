@@ -31,11 +31,11 @@ main {
     /* UI Properties */
     margin: 0px auto;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .pastSummaryContainerHeader {
-    height: 10vh;
+    height: 7vh;
     background: #5861AE 0% 0% no-repeat padding-box;
     display: flex;
 }
@@ -213,12 +213,16 @@ color: #3E3F40;
     margin: 0%;
     padding: 2px;
     text-align: left;
-    font-size: xx-small;
+    font-size: medium;
     letter-spacing: 0.18px;
     color: #3E3F40;
+    width: 500px;
+}
+.footerup-h5{
+    margin-bottom: 30px;
 }
 .footerdown{
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
     width: 926px;
 height: 70px;
 background: #F4F4F4 0% 0% no-repeat padding-box;
@@ -229,9 +233,49 @@ align-content: end;
 width: 150px;
 height: 42px;
 border: 1px solid white;
-background: #F41313  0% no-repeat padding-box;
+background: #F41313 ;
 border-radius: 4px;
 color: #FFFFFF;
 float: right;
 margin:13px 30px;
+}
+.loader-line {
+    width: 200px;
+    height: 3px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin: 100px auto;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.loader-line:before {
+    content: "";
+    position: absolute;
+    left: -50%;
+    height: 3px;
+    width: 40%;
+    background-color: #5861AE;
+    -webkit-animation: lineAnim 1s linear infinite;
+    -moz-animation: lineAnim 1s linear infinite;
+    animation: lineAnim 1s linear infinite;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+@keyframes lineAnim {
+    0% {
+        left: 0%;
+    }
+    50% {
+        left: 0%;
+        width: 80%;
+    }
+    100% {
+        left: 0%;
+        width: 500%;
+    }
 }
